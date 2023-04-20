@@ -55,8 +55,7 @@ You can also add default styling via the `mdi-icon` class.
 Icons get translated to svg elements in the DOM. In order for SVG elements to be accessible, the SVG element needs a title element with an ID and the SVG element should have an aria-labelledby attribute which should be set to the ID of the title. In order to do this, a title prop can be passed in to the Icon. 
 
 ```javascript
-import AlertIcon from 'mdi-react/AlertIcon';
-import AlertCircleIcon from 'mdi-react/AlertCircleIcon';
+import SearchIcon from 'mdi-react/SearchIcon';
 
 const MyComponent = () => {
   const title = {
@@ -66,7 +65,7 @@ const MyComponent = () => {
 
   return (
     <div>
-      <AlertIcon title={title}/>
+      <SearchIcon title={title}/>
     </div>
   );
 };
